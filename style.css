@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Asap, sans-serif;
+}
+
+body {
+    background: #2c3e50;
+}
+
+/* Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.button-play {  
+    margin-top: 20px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ecf0f1;
+}
+
+/* Header */
+header {
+    background: #ecf0f1;
+    color: #2c3e50;
+    padding: 10px;
+    text-align: center;
+}
+
+header .branding {
+    text-transform: uppercase;
+}
+
+header a {
+    color: #2c3e50;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+header .current a {
+    font-weight: bold;
+}
+
+header a:hover {
+    font-weight: bold;
+}
+
+/* Showcase */
+.showcase{
+    height: 400px;
+    background-image: url('./img/showcase.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    text-align: center;
+    color: #ecf0f1;
+}
+
+.showcase h1 {
+    margin-top: 110px;
+    font-size: 55px;
+    margin-bottom: 8px;
+}
+
+.showcase p {
+    font-size: 20px;
+}
+
+.showcase a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ecf0f1;
+}
+
+.showcase a:hover {
+    border-bottom: 3px solid #ecf0f1; 
+}
+
+/* Boxes */
+.boxes {
+    margin: 20px auto;
+}
+
+.boxes h2 {
+    text-align: center;
+    color: #ecf0f1;
+    margin-bottom: 10px;
+}
+
+.boxes .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    text-align: center;
+    color: #ecf0f1;
+    width: 30%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.boxes .box h3 {
+    padding-bottom: 10px;
+}
+
+.boxes .box img {
+    width: 90px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    margin-top: 10px;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+}
+
+footer p {
+    display: inline;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer .copyright {
+    float: right;
+}
